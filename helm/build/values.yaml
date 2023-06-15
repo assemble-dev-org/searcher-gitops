@@ -1,0 +1,16 @@
+app:
+  name: searcher
+  namespace: searcher-dev
+  cluster: .apps.cluster-hx87f.hx87f.sandbox3154.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/assemble-dev-org/searcher
+  org: assemble-dev-org
+  name: searcher
+
+image:
+  registry: Quay
+  organization: jfroehli
+  host: quay.io
+  name: searcher
